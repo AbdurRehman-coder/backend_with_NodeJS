@@ -9,8 +9,17 @@
 
 // module.exports = session;
 
-export function session(){
-    console.log('user successfully logged in');
+
+/// ES6 Module
+
+export function worldCup() {
+    console.log('World Cup is in November');
+    return 90
 }
 
-// export {session}
+export function simple() {
+    console.log('Simple is the best');
+    return 88;
+}
+
+

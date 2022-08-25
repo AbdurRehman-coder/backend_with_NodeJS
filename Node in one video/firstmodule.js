@@ -3,8 +3,15 @@
 
 // const session = require('./secondmodule')
 
-// session()
 
-import  {session} from "./secondmodule.mjs";
 
-session()
+/// ES6 Module
+
+// import {worldCup, simple} from './secondmodule.mjs'
+// simple();
+// worldCup();
+
+import * as secondmodule from './secondmodule.mjs'
+
+console.log(secondmodule.worldCup());
+

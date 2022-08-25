@@ -10,7 +10,7 @@
     "type": "git",
     "url": "init"
   },
-  "type": "module",
+
   "author": "Rehman",
   "license": "ISC",
   "devDependencies": {
